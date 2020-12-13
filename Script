@@ -1,0 +1,13 @@
+Bias in Neuroinformatics
+
+Welcoming
+
+What is the Bias
+  Simple real world example
+  How to correct the Bias
+
+Bias in large number of data samples
+  Why is Variance biased and mean not
+    Bessel's correction
+    Cenrtral Limit Theorem
+  How does the bias behave if we sample more and more data
