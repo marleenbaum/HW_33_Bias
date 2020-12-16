@@ -3,37 +3,48 @@ Bias in Neuroinformatics
 
 Prolog:
     Assumptions/Motivation: (not saying that it's our task ähm)
-    - Biases are in every computer program algorithm, it is surrounding us all the time and this is why its important to discuss.
+    - Biases are used/ occur in every computer program algorithm (mathematical formulae), it is surrounding us all the time and this is why its important to discuss.
+alternative/ addition:    
+ what is it for   to assess how good an estimator is 
     
-    
-What is the Bias? 
+What is a Bias? 
 
     - In real life we estimate a lot, the footpath to goal, relations and computations. 
-       - In neuroinformatics it's the same. --> In all of the problems we can find an estimator.
+       - In neuroinformatics it's the same. --> In all of the problems we can find an estimator.     (I sounds like there needs to be, it is there is the possibility to use, right?)
+       (Do you mean this? script: "everything can be an estimator")
     - So the bias is: the Difference between the real value and our estimation (which we made up) is the bias.
+    
+1  it also gives us a startung point of how to make our estimate better 
     
     - The Dart example:
                   - Applied on the example we might think of throwing darts onto a dartboard. 
-                  - We might estimate the distance to the bulls eye and how much force is needed to throw the arrow onto the target. And throw.
-                  - Unluckerly we missed our goal and hit the dartboard a little bit to much on the right side.
+                  (- We might estimate the distance to the bulls eye and how much force is needed to throw the arrow onto the target.) And throw a few times.
+                  - Unluckerly we miss our goal and hit the dartboard a little bit to much on the right side every time.
                   - The calculated bias would be the difference from the position we threw and the actual goal - The bulls eye.
 
+1   we incorrporate the knowledge of being drawn to one side to make it better
+
     - Can there be other types of biases?
-                  - The proof that the sample variance is biased and needs the bessel's correction (but this don't answers the question fully?)
+                 ( - The proof that the sample variance is biased and needs the bessel's correction 1 (but this don't answers the question fully?))
+                   there can be a lot of instances in which a bias is there, var is one of them, 
+                   other interpretations non mathematically have the same cronotation of prefering sth and neglecting sth else
+    
     
     
 Give reasons for bias and discuss the behaviour of the bias for large number of data samples:
     
      - Another example The Population of crane (Kraniche) big beautiful birds:
                   - When we would larger the sample size from n=10,100,999 Population size = 1000
-                  - The bias becomes more and more irrevelant, B(estimation)= estimation - real value
-                  - The bias would conjugate to 0. 
-                  
+                  - The bias becomes more and more irrevelant / less and less pronounced. b(ation)= estimation - real value
+                  - The bias would conjugate to 0. (is that so? i just don't know)
+                              
                   
 Epilog:
 
-    - How revelant is the information. 
-    - May be we notice that by simplifying (sampling, using model) there could appear biases. But computations are more quickly.
+    - How revelant is the information. ->What do you mean?
+    - Maybe we notice that by simplifying (sampling, using model) there could appear biases. 
+    But computations are more quickly/ help us out when we don't have access to full knowledge,
+    help us abstracting & comparing.
     - ...
 
 
